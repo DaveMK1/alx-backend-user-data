@@ -68,7 +68,7 @@ def main():
 
 
 class RedactingFormatter(logging.Formatter):
-    """ Redacting Formatter class
+    """ redacting Formatter class
     """
 
     REDACTION = "***"
