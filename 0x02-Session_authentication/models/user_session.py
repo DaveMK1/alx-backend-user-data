@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" User session module
+""" User module
 """
 from models.base import Base
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Module of Session in Database
+""" Module of session in a Database
 """
 from api.v1.auth.session_exp_auth import SessionExpAuth
 from datetime import datetime, timedelta
@@ -24,7 +24,7 @@ class SessionDBAuth(SessionExpAuth):
         return session_id
 
     def user_id_for_session_id(self, session_id=None):
-        """User ID for Session ID Database"""
+        """User ID for the session ID Database"""
         if session_id is None:
             return None
 
